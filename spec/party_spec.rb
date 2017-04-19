@@ -2,6 +2,7 @@ require 'spec_helper'
 
 class Launcher
   include PartyGoer
+  extend PartyGoer
 end
 
 describe "The Party" do
